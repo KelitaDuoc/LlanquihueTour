@@ -1,37 +1,97 @@
-Agencia de Turismo Llanquihue Tour
+![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
 
-Autor: Kelita Arias
+# 🧳 Agencia de Turismo Llanquihue Tour
 
-Descripción: Este proyecto fue desarrollado en Java para representar personas relacionadas con la agencia de turismo Llanquihue Tour.
+## 👤 Autor del proyecto
+- **Nombre completo:** Kelita Abisag Arias Segura
+- **Carrera:** Analista Programador Computacional
+- **Sede:** Online
+
+---
+
+## 📘 Descripción general del sistema
+
+Este proyecto fue desarrollado en Java para representar personas relacionadas con la agencia de turismo Llanquihue Tour.
 
 En el proyecto se aplican conceptos de Programación Orientada a Objetos como encapsulamiento, herencia y composición.
 
-Estructura del proyecto Paquete app / Main.java, Paquete model / Persona.java - Empleado.java - Direccion.java
+---
 
-Clases del proyecto:
+## 🧱 Estructura general del proyecto
 
-  Clase que guarda los datos de una persona: Nombre, Rut, Dirección
+```plaintext
+📁 src/
+├── app/
+│   └── Main.java
+└── model/
+    ├── Persona.java
+    ├── Empleado.java
+    └── Direccion.java
+```
 
-  Clase que guarda la dirección de una persona: Calle, Ciudad
+---
 
-  Clase que hereda de Persona y agrega el dato: Cargo
+## 📚 Clases del proyecto
 
-  Clase Main, clase principal donde se crean los objetos y se muestran los resultados.
+### Persona
+Clase que guarda los datos de una persona:
+- Nombre
+- Rut
+- Dirección
 
-Conceptos utilizados :
-  - Encapsulamiento
-  - Herencia
-  - Composición
-  - Constructores
-  - Getters y Setters
-  - Método toString()
+### Direccion
+Clase que guarda la dirección de una persona:
+- Calle
+- Ciudad
 
-Ejecución:
-  - Abrir el proyecto en IntelliJ IDEA.
-  - Ejecutar la clase Main.java.
-  - Ver los resultados en la consola.
+### Empleado
+Clase que hereda de Persona y agrega:
+- Cargo
 
-Resultado:
+### Main
+Clase principal donde se crean los objetos y se muestran los resultados por consola.
 
-El programa muestra la información de tres empleados de la agencia de turismo con el Nombre, Rut, Dirección, Cargo.
+---
 
+## 💡 Conceptos utilizados
+
+- Encapsulamiento
+- Herencia
+- Composición
+- Constructores
+- Getters y Setters
+- Método `toString()`
+
+---
+
+## ⚙️ Instrucciones de ejecución
+
+1. Abrir el proyecto en IntelliJ IDEA.
+2. Ejecutar la clase `Main.java`.
+3. Ver los resultados en la consola.
+
+---
+
+## ✅ Resultado esperado
+
+El programa muestra la información de tres empleados de la agencia de turismo:
+
+- Nombre
+- Rut
+- Dirección
+- Cargo
+
+Ejemplos de cargos:
+- Guía turístico
+- Coordinadora
+- Operador
+
+---
+
+## 🔗 Repositorio GitHub
+
+https://github.com/KelitaDuoc/LlanquihueTour
+
+---
+
+© Duoc UC | Desarrollo Orientado a Objetos I
